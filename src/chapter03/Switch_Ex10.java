@@ -10,11 +10,11 @@ public class Switch_Ex10 {
 		System.out.println("Á¤¼ö¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä.");
 		
 		int num1 = scanf.nextInt();
-		num1 = num1 %2;
+		num1 = num1 % 2;
 		
 		switch(num1) {
-			case 0 :System.out.println("Â¦¼ö"); break;
-			case 1 :System.out.println("È¦¼ö"); break;
+			case 0 : System.out.println("Â¦¼ö"); break;
+			case 1 : System.out.println("È¦¼ö"); break;
 		} // end switch
 		
 		System.out.print("2021 - 03 - ");

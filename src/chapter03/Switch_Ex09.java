@@ -8,7 +8,7 @@ public class Switch_Ex09 {
 		Scanner scanf = new Scanner(System.in);
 		int book = scanf.nextInt();
 		if(book >=0) {
-			book = book/10;
+			book = book / 10;
 			switch(book) {
 				case 0: 
 					System.out.println("조금 더 노력하세요!");

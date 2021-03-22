@@ -7,10 +7,10 @@ public class Switch_Ex11 {
 	public static void main(String[] args) {
 		Scanner scanf = new Scanner(System.in);
 		
-		System.out.println("First number");
+		System.out.println("The First number");
 		int num1 = scanf.nextInt();
 		
-		System.out.println("Second number");
+		System.out.println("The Second number");
 		int num2 = scanf.nextInt();
 		
 		System.out.println("Operator");
