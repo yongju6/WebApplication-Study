@@ -8,12 +8,15 @@ public class Point3D extends Point {
 		return z;
 	}
 	
-	// 오버라이딩 : 부모 클래스에 정의되어 있는 메서드를 자식 클래스에서 재정의하는 것
+	// this와 마찬가지로 super 붙이지 않고 메서드를 호출
+	
+	@Override	// annotation ==> 컴퓨터가 참고하는 주석
 	public String getLocation() {
-		int x = getX();
-		int y = getY();
 		
-		return "x : " + x + ", y : " + y + ", z : " + z;
+		return super.getLocation() + ", z : " + z;
 	}
+	
+	// 오버라이딩 : 부모클래스에 선언된 메서드를 자식 클레스에서 선언하여 수정하여 쓰는 것
+	
 	
 }
