@@ -1,0 +1,7 @@
+package chapter13;
+
+public interface Providable {
+	public abstract void leisurSports();
+	public abstract void sightSeeing();
+	public abstract void food();
+}
